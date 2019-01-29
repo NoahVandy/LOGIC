@@ -23,7 +23,7 @@ namespace LOGIC
             Console.WriteLine();
 
             //second block of questions
-            int m = 3;
+            int m = 2;
             int a = 4;
             int b = 5;
             int c = 6;
@@ -34,7 +34,19 @@ namespace LOGIC
             Console.WriteLine(check = ch >= '0' && ch <= '9');
             Console.WriteLine();
 
-            //Third block of questions
+            //thrid block of questions
+            int x = 4;
+            Console.WriteLine(check = !(m % 2 == 1 && n % 2 == 1));
+            Console.WriteLine(check = m < (n + 5));
+            Console.WriteLine(check = m % 2 == 0 && n % 2 == 0);
+            Console.WriteLine(check = (m % 2 == 0 || x % 2 == 0) && !(m % 2 == 0 && x % 2 == 0));
+            Console.WriteLine();
+
+
+
+
+
+            //fourth block of questions
 
             bool p = true;
             bool q = false;
