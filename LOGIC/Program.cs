@@ -27,10 +27,11 @@ namespace LOGIC
             int a = 4;
             int b = 5;
             int c = 6;
-            String ch = "Noah";
+            char ch = '!';
             Console.WriteLine(check = m > 10);
             Console.WriteLine(check = a % 2 == 0 && b % 2 == 0 && c % 2 == 0);
             Console.WriteLine(check = a % 2 == 0 || b % 2 == 0 || c % 2 == 0);
+            Console.WriteLine(check = ch >= '0' && ch <= '9');
             Console.WriteLine();
 
             //Third block of questions
